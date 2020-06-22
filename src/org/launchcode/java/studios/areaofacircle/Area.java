@@ -5,6 +5,7 @@ public class Area {
         double radius;
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a radius: ");
+        // It still doest not work for empty spaces.
         try{
             radius = input.nextDouble();
             while (radius < 0) {
